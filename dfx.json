@@ -1,0 +1,29 @@
+{
+  "canisters": {
+    "safechain_backend": {
+      "main": "src/safechain_backend/main.mo",
+      "type": "motoko"
+    },
+    "safechain_frontend": {
+      "dependencies": [
+        "safechain_backend"
+      ],
+      "frontend": {
+        "entrypoint": "src/safechain_frontend/src/index.html"
+      },
+      "source": [
+        "src/safechain_frontend/assets",
+        "dist/safechain_frontend/"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
