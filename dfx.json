@@ -4,6 +4,10 @@
       "main": "src/safechain_backend/main.mo",
       "type": "motoko"
     },
+    "internet_identity" : {
+      "type": "pull",
+      "id": "rdmx6-jaaaa-aaaaa-aaadq-cai"
+    },
     "safechain_frontend": {
       "dependencies": [
         "safechain_backend"
