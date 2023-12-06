@@ -1,26 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>greet</title>
-    <base href="/" />
-    <link rel="icon" href="favicon.ico" />
-    <link type="text/css" rel="stylesheet" href="main.css" />
-  </head>
-  <body>
-    <main>
-      <img src="logo2.png" alt="SafeChain logo" />
-      <br />
-      <br />
-      <form>
-        <button id="login"> Authenticate</button>
-      </form>
-      <br />
-      <form>
-        <button id="whoAmI">Check session ID</button>
-      </form>
-      <section id="principal"></section>
-    </main>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SafeChain</title>
+  <base href="/" />
+  <link rel="icon" href="favicon.ico" />
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    main {
+      text-align: center;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      background-color: rgb(36, 32, 32);
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      margin-top: 20px;
+    }
+
+    button:disabled {
+      background-color: #bdc3c7;
+      cursor: not-allowed;
+    }
+
+    #principal {
+      margin-top: 20px;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <img src="logo2.png" alt="SafeChain logo" />
+    <br />
+    <br />
+    <form>
+      <button id="login">Authenticate</button>
+    </form>
+    <br />
+    <form>
+      <button id="whoAmI">Who am I?</button>
+    </form>
+    <section id="principal"></section>
+  </main>
+</body>
 </html>
