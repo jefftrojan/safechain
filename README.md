@@ -3,6 +3,7 @@
 ## Overview
 
 SAFE-chain is a blockchain application built on the Internet Computer (ICP) platform. Our mission is to transform the healthcare system by leveraging the power of blockchain technology. We aim to empower patients by providing them with full ownership and control over their health data.
+[https://github.com/jefftrojan/safechain]
 
 ## Key Features
 
